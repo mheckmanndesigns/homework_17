@@ -1,0 +1,69 @@
+.header{
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    max-height: 20vh;
+    text-align: center;
+    color: lightcoral;
+}
+.darkContainer {
+    background-color: rgb(1, 1, 48);
+    color: whitesmoke;
+}
+
+.liteContainer {
+    background-color: whitesmoke;
+    color: rgb(1, 1, 48);
+}
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.clearfix{
+    overflow: auto;
+}
+.hero{
+    padding-top: 5px;
+    display: grid;
+    background-color:lightcyan;
+
+}
+.heroText{
+    padding: 25px 75px 25px 75px;
+}
+.myPhoto{
+    padding: 0px 25px 50p 25px;
+}
+img{
+    display: block;
+    position: relative;
+
+}
+.container{
+    padding-top: 25px;
+}
+
+.photo {
+   
+    border: 1px solid blue;
+ }
+ .caseStudy{
+    transition: all 0.3s ease-in-out;
+ }
+
+ .button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
