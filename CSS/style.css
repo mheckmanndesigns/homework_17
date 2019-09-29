@@ -1,20 +1,31 @@
 .body{
-    font-family: 'Cutive', serif;
-    font-family: 'Copse', serif;
-    font-family: 'Arvo', serif;
+    background-color: rgb(1, 1, 48);
 }
-
+h2 {
+    font-family: 'Cutive', serif;
+    color: lightcoral;
+}
+h4 {
+    font-family: "rock Salt", cursive;
+    color: lightcoral;
+}
+p {
+    font-family: 'livvic', sans-serif;
+}
+.center{
+    font-family: "rock Salt", cursive;
+}
 .header{
     display: flexbox;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: darkslategrey;
-    max-height: 20vh;
-    text-align: center;
+    background-color: rgb(1, 1, 48);
+    max-height: 40vh;
     color: lightcoral;
 }
-.darkContainer {
+
+/*.darkContainer {
     background-color: rgb(1, 1, 48);
     color: whitesmoke;
 }
@@ -22,54 +33,71 @@
 .liteContainer {
     background-color: whitesmoke;
     color: rgb(1, 1, 48);
-}
+}*/
 .center{
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
 
-}
-.clearfix{
-    overflow: auto;
-}
 .hero{
-    padding-top: 5px;
+    padding: 50px;
     display: grid;
-    background-color:lightcyan;
+    background-color:rgb(1, 1, 48);
 
 }
 .heroText{
     padding: 25px 75px 25px 75px;
+    color: whitesmoke;
 }
 .myPhoto{
     padding: 0px 25px 50p 25px;
 }
-img{
-    display: block;
-    position: relative;
 
-}
-.container{
-    padding-top: 25px;
-}
-
-.photo {
+.miniContainer {
+    border: 1px solid lightcoral;
+    padding: 30px;
    
-    border: 1px solid blue;
- }
- .caseStudy{
-    transition: all 0.3s ease-in-out;
- }
+}
+.miniContainer p{
+    font-family:'Cutive', serif;
+}
 
- .button {
-    background-color: #ddd;
-    border: none;
-    color: black;
-    padding: 10px 20px;
+.affinity {
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    background-color: rgb(1, 1, 48);
+    color: whitesmoke;
+
+    box-shadow: 0 4px 8px 0 rgba(240,128,128, 0.897);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(240,128,128, 0.897);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
     text-align: center;
-    text-decoration: underline;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
+    text-decoration: none;
+    border-radius: 50%;
+    color: lightcoral;
+  }
+  .footer {
+    margin: auto;
+  
+    background-color: rgb(1, 1, 48);
+  
   }
